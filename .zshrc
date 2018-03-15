@@ -26,7 +26,7 @@ ZSH_THEME="kafeitu"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx wd autojump pep8 pip z)
+plugins=(git osx wd autojump pep8 z)
 
 source $ZSH/oh-my-zsh.sh
 
