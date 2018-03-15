@@ -1,0 +1,29 @@
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	ci = commit
+	diff = diff --color
+	df = diff
+	dc = diff --cached
+	lg = log --color --graph
+[user]
+	name = vimiix
+	email = i@vimiix.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/vimiix/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/vimiix/.stCommitMsg
+[push]
+	default = current
+[color]
+	diff = auto
+	ui = auto
