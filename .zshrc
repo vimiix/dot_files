@@ -8,6 +8,8 @@ export ZSH=$HOME/.oh-my-zsh
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
+alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
